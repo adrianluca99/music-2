@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+p {
+    color: #8a8a8a;
+}
+body {
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    background-color: hsl(225, 100%, 94%);
+    
+    font-family: 'Red Hat Display', sans-serif;
+
+    position: relative;
+    min-height: 100vh;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:rgb(255, 255, 255);
+    max-width: 450px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: none;
+    box-shadow: 12.5px 7.5px 25px 2px rgb(54, 80, 151);
+}
+
+.content {
+    padding: 10%;
+    text-align: center;
+}
+.content h2 {
+    margin-bottom:20px;
+    font-weight: 900;
+}
+.data-cost {
+    display: flex;
+    align-items: center;
+    margin: 40px 20px 60px 20px;
+    gap: 1rem;
+}
+.change-cost {
+    margin-left: 5.5rem;
+}
+.final {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:2rem;
+}
+.button {
+    color: white;
+    background-color:hsl(245, 75%, 52%);
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 900;
+    padding: 16px 100px;
+    border: none;
+    box-shadow: 0px 10px 20px 0px hsl(210, 1%, 64%);
+}
+.button:hover {
+    color: black;
+
+    background-color: aliceblue;
+    box-shadow: none;
+    box-sizing:border-box
+    transition: 0.5s;
+}
